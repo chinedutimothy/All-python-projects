@@ -17,4 +17,4 @@ def translator(phrase):
     return translation
 
 print(translator(input("Enter words: ")))
-#it is ok
+
