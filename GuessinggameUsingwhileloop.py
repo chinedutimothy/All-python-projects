@@ -1,11 +1,12 @@
-
+#creating a guessing game using while loop
+#we have variables 
 user_name = "Friday"
 pass_word = "Octopus"
 username = ""
 password = ""
 bothcount = 0
 bothlimit = 3
-no_trial = False
+no_trial = False # this is inplace because 
 
 
 while ((username != user_name) or (password != pass_word)) and not (no_trial) :
