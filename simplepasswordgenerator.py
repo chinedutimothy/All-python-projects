@@ -9,6 +9,6 @@ print("Here are your passwords")
 
 for pwd in range(number):
     passwords = ""
-    for pwd in range(length):
-        passwords = passwords + random.choice(char)
+    for p in range(length):
+        passwords += random.choice(char)
     print(passwords)
