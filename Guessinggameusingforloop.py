@@ -6,7 +6,7 @@
 username = "Friday"
 password = "Octopus"
 limit = 3
-guess = False
+#guess = False
 
 for guess in range(limit):
     guess1 = input("Guess username: ")

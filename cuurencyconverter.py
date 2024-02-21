@@ -1,4 +1,4 @@
-"""
+from forex-python.converter import CurrencyRates
 
 import CurrencyRates
 
@@ -28,3 +28,4 @@ time_series = api.get_exchange_rates(
 )
 data_frame = api.to_dataframe(time_series)
 print(data_frame.head(5))
+"""
