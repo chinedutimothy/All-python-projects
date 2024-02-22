@@ -1,5 +1,7 @@
 #Rock, Paper , Scissors using while loop
 #Its a single player game
+#here is the link to the Multi player game 
+#https://github.com/chinedutimothy/All-python-projects/blob/main/MultiplayerRockPaperandScissors.py
 
 import random
 
