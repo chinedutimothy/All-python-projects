@@ -1,5 +1,7 @@
 #Rock, Paper , Scissors using while loop
 #Its a multi player game
+#here is the link to the single player game
+#https://github.com/chinedutimothy/All-python-projects/blob/main/SiingleplayerRockPaperandScisors.py
 
 
 count = int(0)
