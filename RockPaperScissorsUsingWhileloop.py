@@ -2,7 +2,7 @@
 count = 0
 player1point = 0
 player2point = 0  
-limit = 5
+limit = 10
 
 while limit > count:
     player1 = input("Select 'r' for rock, 's' for scissors and 'p' for paper")
@@ -11,9 +11,9 @@ while limit > count:
    
       
     
-    if player1 == player2:
+    while player1 == player2:
         print("It is a tie")
-    elif (player1 == 'r' and player2 == 's') or (player1 == 's' and player2 == 'p')\
+    if (player1 == 'r' and player2 == 's') or (player1 == 's' and player2 == 'p')\
         or (player1 == 'p' and player2 == 'r'):
         print("Player 1 wins ")
         player1point += 1
@@ -21,9 +21,14 @@ while limit > count:
         print("Player2 wins")
         player2point += 1
 
-        
-    print(player1point)
-    print(player2point)
+    
+
+if player1point > player2point:   
+    print(f"Player 1 wins this round with a score of {player1point} while Player2 got a score of {player2point}") 
+elif player1point == player2point:
+    print (f"It is a tie with a score of {player1point} and {player2point}")
+else:
+   print(f"Player 2 wins this round with a score of {player2point} while Player1 got a score of {player1point}") 
 
    
    
