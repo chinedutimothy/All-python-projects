@@ -1,3 +1,6 @@
+#Rock, Paper , Scissors using while loop
+#Its a multi player game
+
 
 count = 0
 player1point = 0
@@ -11,12 +14,13 @@ while limit > count:
    
       
     
-    while player1 == player2:
-        print("It is a tie")
+ 
     if (player1 == 'r' and player2 == 's') or (player1 == 's' and player2 == 'p')\
         or (player1 == 'p' and player2 == 'r'):
         print("Player 1 wins ")
         player1point += 1
+    elif player1 == player2:
+        print ("It's a tie")
     else:
         print("Player2 wins")
         player2point += 1
